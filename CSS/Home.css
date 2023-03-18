@@ -64,38 +64,52 @@ body{
 }
 
 .site-nav-inner{
-    position: absolute;
-    left: -15;
-    right: -15;
-    top: 15;
+    position: inherit;
+    left: 150;
+    margin-left: 200px; 
+    border-radius: 5px;
+    /* right: -15; */
+    /* top: 15; */
+    color: red;
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgba(200, 0, 0, 0.8);
+    background-color: rgba(230, 204, 204, 0.8);
+}
+
+.site-nav-inner a + a{
+    margin-top: 5px;
 }
 
 .site-nav a{
     text-decoration: none;
-    color: #fff;
+    color: #ee0909;
     display: block;
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
 }
 
+.hero-section{
+    background-image: url(/Images/HERO.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    border: 2px solid blueviolet;
+}
+
 .hero-inner{
     color: red;
-    /* border: 2px solid red; */
-    max-width: 500px;
-    /* background-color: rgba(109, 37, 37, 0.3); */
-    padding: 10px;
+    background-color: rgba(233, 228, 158, 0.3);
+    padding: 15px;
     border-radius: 5px;
 }
 
 .hero-section h1{
     font-size: 40px;
 }
-
-
 
 
 
@@ -106,7 +120,7 @@ body{
     color: white;
     text-align: center;
     padding-top: 5px;
-    margin-left: 40px;
+    margin-left: 5px;
     
 }
 
