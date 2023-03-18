@@ -97,7 +97,7 @@ body{
     min-height: 90vh;
     display: flex;
     align-items: center;
-    border: 2px solid blueviolet;
+    /* border: 2px solid blueviolet; */
 }
 
 .hero-inner{
@@ -131,6 +131,9 @@ body{
     margin-left: 30px;
 }
 
+.impact{
+    border: 2px solid crimson;
+}
 
 
 @media onlyscreen and (min-width=1000px){
