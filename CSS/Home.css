@@ -14,8 +14,8 @@ body{
     margin-right: 10px;
     /* remove later */
 
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .site-header{
@@ -25,8 +25,9 @@ body{
 }
 
 .logo{
+    
     width: 70px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .logo-btn-container   {
@@ -34,17 +35,18 @@ body{
     align-items: center;
 }
 
-.menu-btn-container   {
+.menu-btn-container  {
     margin-left: auto;
 }
 
 .hamburgar{
+    margin-left: auto;
     width: 30px ;
     cursor: pointer;
 }
 
 .hamburgar .btn-bars{
-    border: 1px solid rgb(220, 51, 36);
+    border: 1.8px solid rgb(220, 51, 36);
     display: block;
 }
 
@@ -57,7 +59,7 @@ body{
     display: none;
 }
 
-.site-nav .is-open{
+ .is-open{
     display: block;
 }
 
@@ -85,7 +87,7 @@ body{
     /* border: 2px solid red; */
     max-width: 500px;
     /* background-color: rgba(109, 37, 37, 0.3); */
-    padding: 25px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -119,6 +121,11 @@ body{
 
 @media onlyscreen and (min-width=1000px){
     .menu-btn-container{
+        border: 2px solid cyan;
+        display: none;
+    }
+
+    .is-open{
         display: none;
     }
 
@@ -129,7 +136,8 @@ body{
     }
 
     .site-nav{
-        display: block;
+        border: 2px solid green;
+        display: flex;
         margin-left: auto;
     }
 
