@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    width:100%;
+    height: auto;
+    background: #222;
+}
+.menu ul{
+    display: flex;
+    justify-content: center;
+    width:90%;
+    height: auto;
+    list-style: none;
+    
+}
+.menu ul li{
+    text-align: center;
+    width: auto;
+    height:auto;
+    padding: 10px;
+}
+.menu ul li a{
+    color:white;
+    text-decoration: none;
+}
+ #drop {
+    display: block;
+    
+}
+.subdrop{
+    display: none;
+}
+#drop:hover .subdrop{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    background: #222;
+    width: 100px;
+    height:auto;
+    transition: 2s all ease;
+    
+}
+#drop:hover .subdrop ul{
+    display: inline-block;
+    
+    
+}
+#drop:hover .subdrop ul li{
+    width: ;
+    height: auto;
+    border-bottom: 1px dotted #555;
+    
+}
+#drop:hover .subdrop ul li a{
+    text-align: right;
+    color: white;
+    text-decoration: none;
+}
