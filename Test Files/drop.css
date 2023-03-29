@@ -1,252 +1,294 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 
 }
-body{
+
+body {
     margin: 10px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-header{
+
+header {
     /* border: 2px solid violet; */
+    margin: 10px;
     width: 100%;
     height: 50px;
-     display: flex;
-     margin-bottom: 20px;
-     justify-content: space-evenly;
-   
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+
 }
-header img{
+
+.logo{
+    /* margin: 1px; */
+    width: 350px;
+    /* border: 2px solid darkblue; */
+}
+
+header img {
+    /* border: 2px solid forestgreen; */
+    margin: 20px;
     margin-top: 10px;
     width: 100px;
     height: 60px;
- 
-  margin-right:750px;
-}
-  .menu{
-    /* border: 2px solid darkmagenta; */
-  width: 100%;
-  /* height: auto; */
-  float: right;
-  display: flex;
-  justify-content: right;
+    margin-bottom: 20px;
+    margin-right: 750px;
 }
 
-.menu ul{
+.menu {
+    /* border: 2px solid darkmagenta; */
+    width: 100%;
+    /* height: auto; */
+    float: right;
+    display: flex;
+    justify-content: right;
+}
+
+.menu ul {
     margin-top: -30px;
     /* border: 2px dotted #f03838; */
-     list-style: none;
-     display: inline-flex;
+    list-style: none;
+    display: inline-flex;
 
 }
-.menu ul li{
+
+.menu ul li {
     margin: 20px;
     padding: 30px;
     width: 200px;
     height: 100px;
 
 }
-.menu ul li a{
-     text-decoration: none;
-     color: #222;
-     font-size: large;
-     text-align: center;
-     
+
+.menu ul li a {
+    text-decoration: none;
+    color: #222;
+    font-size: large;
+    text-align: center;
+
 }
 
 
- #drop:hover{
-   background-color:#f03838;
-   color: #fff;
-    
-}
-#drop:hover a{
-  
+#drop:hover {
+    background-color: #f03838;
     color: #fff;
-     
- }
 
-.subdrop{
-    
+}
+
+#drop:hover a {
+
+    color: #fff;
+
+}
+
+.subdrop {
+
     display: none;
     transition: 80s all ease;
 
 }
-#drop:hover .subdrop{
+
+#drop:hover .subdrop {
     display: flex;
     margin-top: 8px;
     background-color: #f03838;
-   position: fixed;
-   left: 5px;
-   width:110%;
-   height: 300px;   
+    position: fixed;
+    left: 5px;
+    width: 110%;
+    height: 300px;
 }
-/* #drop:hover .subdrop .ul-all{ */
-    width: 40%;
+
+#drop:hover .subdrop .ul-all{
+width: 40%;
+height: auto;
+margin-left: 400px;
+margin-top: 30px;
+display: flex;
+
+}
+
+#drop:hover .subdrop img {
+
+    width: auto;
     height: auto;
     margin-left: 400px;
-    margin-top: 30px;
-    display: flex;
-  
 }
-#drop:hover  .subdrop  img{
 
-      width:auto;
-      height:auto;
-      margin-left: 400px;
-}
-#drop:hover .subdrop ul{
-   position: relative;
+#drop:hover .subdrop ul {
+    position: relative;
     width: 500px;
     height: 40px;
     display: inline-block;
-    
+
 }
-#drop:hover  .subdrop ul li {
+
+#drop:hover .subdrop ul li {
     width: auto;
     height: auto;
     padding: 5px;
-    
-}
-#drop:hover .subdrop ul li p{
-    color: white;
- 
-}
-#drop:hover .subdrop ul li a{
-   color: white;
-   font-size: 20px;
-   padding-bottom: 10px;
+
 }
 
-#drop2:hover{
-    background-color:#f03838;
+#drop:hover .subdrop ul li p {
+    color: white;
+
+}
+
+#drop:hover .subdrop ul li a {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#drop2:hover {
+    background-color: #f03838;
     color: #fff;
-     
- }
- #drop2:hover a{
-   
-     color: #fff;
-      
-  }
- 
- .subdrop_2{
-     
-     display: none;
- 
- }
- #drop2:hover .subdrop_2{
-     display: flex;
-     margin-top: 8px;
-     background-color: #f03838;
+
+}
+
+#drop2:hover a {
+
+    color: #fff;
+
+}
+
+.subdrop_2 {
+
+    display: none;
+
+}
+
+#drop2:hover .subdrop_2 {
+    display: flex;
+    margin-top: 8px;
+    background-color: #f03838;
     position: fixed;
     left: 5px;
-    width:110%;
+    width: 110%;
     justify-content: space-evenly;
     height: 300px;
-   
- }
+
+}
 
 
- #drop2:hover .subdrop_2 ul{
+#drop2:hover .subdrop_2 ul {
     position: relative;
-     width: auto;
-     height:auto;
-     display: flex;
-     margin: 3px;
-     align-items: center;
-     
- }
- #drop2:hover  .subdrop_2 ul li {
-     width: 300px;
-     height: auto;
-     padding: 5px;
-     
- }
- #drop2:hover .subdrop_2 ul li p{
-     color: white;
-     margin-top: 20px;
-     width: auto;
-     height: auto;
-  
- }
- #drop2:hover .subdrop_2 ul li a{
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: 3px;
+    align-items: center;
+
+}
+
+#drop2:hover .subdrop_2 ul li {
+    width: 300px;
+    height: auto;
+    padding: 5px;
+
+}
+
+#drop2:hover .subdrop_2 ul li p {
+    color: white;
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+
+}
+
+#drop2:hover .subdrop_2 ul li a {
     color: white;
     font-size: 22px;
     width: auto;
-   
+
     margin-bottom: 20px;
     height: auto;
- }
- .join-drop{
-  display: none;
-  transition: 2s all ease;
- }
- #join-us:hover{
-     background-color: #c4b6b6;
-   
- }
- #join-us:hover a{
-   
+}
+
+.join-drop {
+    display: none;
+    transition: 2s all ease;
+}
+
+#join-us:hover {
+    background-color: #c4b6b6;
+
+}
+
+#join-us:hover a {
+
     color: #222;
 }
- #join-us:hover .join-drop{
+
+#join-us:hover .join-drop {
     display: inline;
-     margin-top: 30px;
-     background-color: #efc7ef;
+    margin-top: 30px;
+    background-color: #efc7ef;
     position: fixed;
     right: 20px;
-    width:200px;
+    width: 200px;
     justify-content: stretch;
     height: 200px;
- 
- }
- .join-drop ul{
-   display:block;
-   margin: 20px;
-   justify-content: center;
- }
- .join-drop ul li{
+
+}
+
+.join-drop ul {
+    display: block;
+    margin: 20px;
+    justify-content: center;
+}
+
+.join-drop ul li {
     padding: 15px;
     margin: 17px 0 20px 1px;
-    width:160px;
+    width: 160px;
     height: auto;
     text-align: center;
-    
- }
- .join-drop ul li a{
+
+}
+
+.join-drop ul li a {
     text-align: center;
     color: white;
- }
- .join-drop #outline{
+}
+
+.join-drop #outline {
     background-color: none;
     border-radius: 5px;
     outline: 1px solid #222;
- }
- .join-drop #outline a{
-    color: #222;
- }
- .join-drop #outline:hover{
-    background-color: #0c0606;
-    border-radius: 5px;
- }
- .join-drop #outline:hover a{
-    color: #ffff;
- }
- .join-drop #bg a{
-    color: black;
- }
- .join-drop #bg:hover{
-    background-color: #0c0606;
-    border-radius: 5px;
- }
- .join-drop #bg:hover a{
-     color: #fff;
- }
+}
 
- .hero-section{
+.join-drop #outline a {
+    color: #222;
+}
+
+.join-drop #outline:hover {
+    background-color: #0c0606;
+    border-radius: 5px;
+}
+
+.join-drop #outline:hover a {
+    color: #ffff;
+}
+
+.join-drop #bg a {
+    color: black;
+}
+
+.join-drop #bg:hover {
+    background-color: #0c0606;
+    border-radius: 5px;
+}
+
+.join-drop #bg:hover a {
+    color: #fff;
+}
+
+/* .hero-section{
     background-size: 100%;
-    background-image: url(./Images/HERO.jpg);
+    background-image: url(./Images/Hero\ Alt.jpg);
     border: 2px solid black;
     height: 100%;
     background-repeat: no-repeat;
@@ -260,21 +302,40 @@ header img{
     height: 40vh;
     margin-top: 100px;
     width: 600px;
-    /* border: 2px solid yellowgreen; */
+     border: 2px solid yellowgreen; 
  }
+*/
 
- .hero-inner h1{
-    font-size: 60px;
+.hero-section {
+    background-image: url(./Images/Hero\ Alt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: top center; */
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-inner h1 {
+    font-size: 80px;
     color: #f03838;
- }
+}
 
- .hero-inner p{
+.hero-inner p {
     margin-right: 30px;
     font-weight: 600;
     font-size: 30px;
- }
+    margin-top: 15px;
+}
 
- .site-btn{
+.hero-inner {
+    max-width: 700px;
+    background-color: rgba(225, 255, 255, 0.3);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.site-btn {
     margin-top: 50px;
     cursor: pointer;
     color: white;
@@ -284,4 +345,4 @@ header img{
     font-size: 20px;
     padding: 10px;
     border-radius: 5px;
- }
+}

@@ -4,17 +4,17 @@ function showMenu()  {
 }  
 
 
-.join-drop #bg a{
-    color: white;
- }
- .join-drop #outline:hover #bg{
-    background-color: transparent;
-    border-radius: 5px;
-    outline: 1px solid #222;
- }
- .join-drop #outline:hover #bg a{
-    color: black;
- }
- .join-drop #bg:hover a{
-     color: #000;
- }
+// .join-drop #bg a{
+//     color: white;
+//  }
+//  .join-drop #outline:hover #bg{
+//     background-color: transparent;
+//     border-radius: 5px;
+//     outline: 1px solid #222;
+//  }
+//  .join-drop #outline:hover #bg a{
+//     color: black;
+//  }
+//  .join-drop #bg:hover a{
+//      color: #000;
+//  }
